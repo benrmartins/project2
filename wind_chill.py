@@ -7,7 +7,7 @@ v = float(sys.argv[2])
 
 # Checks if t and v has the correct input
 if t > 50:
-    stdio.writeln("Value of t must be ≤ 50 F")
+    stdio.writeln("Value of t must be <= 50 F")
 
 elif v <= 3:
     stdio.writeln("Value of v must be > 3 mph")

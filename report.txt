@@ -1,12 +1,12 @@
 1. Enter the number of hours it took you to complete the project between
    the <<< and >>> signs below (eg, <<<10>>>).
 
-   <<< >>>
+   <<<2>>>
    
 2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
    between the <<< and >>> signs below (eg, <<<3>>>).
 
-   <<< >>>
+   <<<4>>>
 
 3. Did you receive help from anyone? List their names, status (classmate, 
    CS110 grad, TA, other), and the nature of help received.
@@ -20,19 +20,40 @@
    encountered, and how you resolved those issues.
 
    Problem 1 (Wind Chill)
-      Approach: ...
+      Approach: In this problem first I had to get the numbers from the terminal and store it into a float variable.
+      Next I created a if and elif statement to check if the temperature is less than 50 degrees and
+      the wind above 3mph Then I created a variable and stored the equation that the writeup gave us.
+      Lastly I displayed the answer onto the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: I had difficulty with converting the equation that was given to me to python code
+      It caused me to try to write and test the equation on multiple occasions to make sure I put the parenthesis
+      in the correct place. I did not put enough parenthesis in between (0.4275 * t) - 35.75. but found out I
+      should have added an extra set of parenthesis in between. After fixing it, the answer displayed was correct.
 
    Problem 2 (Day of the Week)
-      Approach: ...
+      Approach: In this problem first I had to get the numbers from the terminal and store it into a int variable.
+      Next I created multiple int variable and stored the equation that the writeup gave us to find the exact date.
+      Then I used if and elif statements and set each number 0-6 equal to sunday to saturday. Lastly I displayed the
+      date onto the terminal from the input.
 
-      Issues and resolution: ...
+      Issues and resolution: I had difficulty with converting the equation that was given to me to python code
+      It caused me to try test the equation on multiple occasions to make sure I was converting
+      the equation to the right format. I did not variable of the equation to an int, and I used regular division.
+      But found out I needed to convert the variable to in by having int() around the equation.
+      I also had to se floor division // instead of regular division /. After fixing it, the answer
+      displayed was correct.
 
    Problem 3 (Playing Card)
-      Approach: ...
+      Approach: In this problem first I had first randomized a number between 2 and 15 to represent each of the cards
+      Next I randomized a number between 1 and 5 to represent each of the suits. Then I used if and elif
+      statements to set the random number equal to a card that represents the same number and a number
+      that represents a certain suit. Lastly I displayed the card and the suit onto the screen.
 
-      Issues and resolution: ...
+      Issues and resolution: I had difficulty trying to figure out how to not use each number
+      to represent that same number using an if and elif statement. It caused me to use lots of
+      elif statements in my code. I did not need to write all the extra elif statements.
+      But found out I use an else statement and convert the random number to a string instead of using a bunch of
+      elif statements. After fixing it, I used alot less code than I did first.
 
    Problem 4 (Root Finding)
       Approach: ...

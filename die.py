@@ -2,10 +2,10 @@ import stdio
 import stdrandom
 
 # Set value to a random integer from [1, 6].
-value = stdrandom.uniformInt(1, 7)
+value = stdrandom.uniformInt(1, 6)
 
 # Set output to the empty string.
-output = ""
+output = ''
 
 # Set output to the appropriate string based on value.
 if value == 1:
@@ -15,13 +15,13 @@ elif value == 2:
 elif value == 3:
     output = '*    \n  *  \n    *\n'
 elif value == 4:
-    output = '*   *\n     \n*   *\n'
+    output = '*   *\n  *  \n*   *\n'
 elif value == 5:
     output = '*   *\n  *  \n*   *\n'
 elif value == 6:
     output = '* * *\n     \n* * *\n'
 else:
-    output = "Error"
+    output = 'Error'
 
 # Write output to standard output.
-stdio.writeln(output)
+stdio.write(output)

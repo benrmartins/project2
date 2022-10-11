@@ -5,10 +5,10 @@ import sys
 n = int(sys.argv[1])
 p = int(sys.argv[2])
 
-total = 0
+totalPower = 0
 # loops untill from 1 to the value in the terminal
 for i in range(1, n + 1):
     # adds the power starting a 1
-    total += i ** p
+    totalPower += i ** p
 
-stdio.writeln(total)
+stdio.writeln(totalPower)

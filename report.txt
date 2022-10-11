@@ -56,42 +56,96 @@
       elif statements. After fixing it, I used alot less code than I did first.
 
    Problem 4 (Root Finding)
-      Approach: ...
+      Approach: First in this problem I stored the 3 numbers from the terminal to int adn float vaiables.
+      next I created a while loop that repeated until s |1 − c/tk| > . Next inside of that while loop I
+      remplaced t with the kth root of c. Lastly when the while loop fiinshed I displayed t to the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: I had difficulty converting the equation that was given to me to code that python
+      can compile correctly. It caused me to try to write and test the equation on multiple occasions to make sure I
+      put the parenthesis in the right places, so it can calucate the numbers in the right order. I had to surround
+      the two parts of the equation with parathesis. (t ** k - c) / (k * t ** (k - 1)). Not doing this caused a logic
+      error in my code. After fxing it the code produced the right output
 
    Problem 5 (Greatest Common Divisor)
-      Approach: ...
+      Approach: First I had to store number from the terminl into int variables. Next I created a while loop
+      that ran until loops until p is divisible by q. After that I extange the ntwo variables with each other
+      and mod them. I did that by creataing a temparary vaiable and using that to as q. After that I dsipayed
+      the answer onto the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: I had diffuclty trying you figure out how I will exange q and p and storing the module
+      of them into q. It caused me to try to find a soluation to it by using another variable. But I found
+      out that I neede to create a temparary variable called temp and set it eqaul to q, so then I can change q
+      around a still replace it with p. After that I was able to set p = to q and q = q % p while keeping the
+      valuse consistant
 
    Problem 6 (Fibonacci Number)
-      Approach: ...
+      Approach: First stored the number from the terminl into int variable. Next I set values
+      to the first three numbers of the Fibonacci sequence. Then I created a while loop to  until it find
+      the number of the sequence you inputed. Next I created a temparary vaiable to store b so b can be changed
+      and still be the same number from the terminal. Next I used the logic in the writeup to the next numbers
+      of the Fibonacci sequence and incrented i so the loop will stop. Lastly I displad the vaiable b onto
+      the terminal
 
-      Issues and resolution: ...
+      Issues and resolution: I had no issues with this problem. The directions of this problem were well
+      expained and very simple. I aslo knew do this problem beause I used the information I learned from the
+      last problem of using a temparary variable in order to save the variable b and give a that value.
 
    Problem 7 (Sum of Powers)
-      Approach: ...
+      Approach: In this problem first I had to get the numbers from the terminal and store it into a
+      float variable. Then I had to create a variable to store the total. Next I had to create of for loop
+      that created i and incrment it unitl it got to the number n + 1. Then I took the power of I and stored
+      it in the total, after that I display the total onto the terminal.
 
-      Issues and resolution: ...
+
+      Issues and resolution: I had diffuclty trying to figure out which loop I should use to find the
+      total. It caused me to try to use different kinds of interation like the while loop. doing that caused me to
+      add extra lines of code. But I found out  the easier loop to use in this problem is the for loop because
+      it can create a incrpment value for you instead of maniually doing it yourself in the while loop. After fixing it
+      I saved lines of code and the code is much more clearer.
 
    Problem 8 (Dragon Curve)
-      Approach: ...
+      Approach: First in this problem I had to get the number of curves from the dragon from the treminal and store
+      it into a int variable n. Then I had to create variables to store the dragons curve "L" and "R". After that I created
+      a for loop to loop from 1 to n. Then add the curves to the dragon variable that was created in the for loop by
+      concating the string with the "L" and "R" curve. After that I displayed the String onto the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: In this problem, there were no issues for me. Most of the requirements that was needed
+      for this problem to work, I already knew how to do it because oof the previous problems. I knew I needed a for loop
+      due to the sum of powers problem. I knew I need to create a temparary, so I can concatate the curves together from the
+      Fibonacci Number problem.
 
    Problem 9 (Perfect Numbers)
-      Approach: ...
+      Approach: In this problem first I needed to get the perfect numbers that are less than or equal to n and store it
+      into a variable. Next I had to create a for loop that loop from 2 to n + 1 in order to find the perfect numbers in between.
+      After that I created a total vaiable to store the perfect numbers in it. Then I created a second for loop to check if from i
+      to i // 2 + 1. After that I created an if statment to hecks if the i is divisible vy j, then add j to the total. Lastly I
+      created the final if stament that displays i when it was equal to the total.
 
-      Issues and resolution: ...
+      Issues and resolution:  I had diffuclty trying to figure out how to make the steps that the problem gave me to python code
+      using if, for, and while statments. It caused me to be very confused on which statment i should use. Doing that caused me to
+      test different staments. But I found out that I neede to use a nested for loop and use i as one of the agruments for it.
+      for i in range(2, n + 1): and for j in range(1, i // 2 + 1):. Because of using a nested loop it allowed to set the total and check the
+      mod after each other.
+
 
    Problem 10 (Ramanujan Numbers)
-      Approach: ...
+      Approach: First I had to get the max number in the terminal and store it into a int variable. Next I stored the value a into
+      1. Then I created the 6 nested while loops and followed the equations in the write-up. Next I had to set the variables equal to
+      each other to and add a + 1 to it. Next I had to display the code correctly using strings. After that I unlcued if staments
+      to get the x variable. Lasly that I had to add one to each of the variables d+=1 to a+= 1.
 
-      Issues and resolution: ...
+      Issues and resolution: I had diffuclty trying to make sure the string exactly like the example they gave to us. It caused me
+      many trail and errors trying to make the String correctly right. Doing that caused the output on the terminal to be correct but adding it
+      to gradscope did not make it work. But After a little while of testing, I added an extra space at the end of the last number. After
+      fixing, it worked on gradescope
+
 
 5. List any other comments here. Feel free to provide any feedback on how
    much you learned from doing the assignment, and whether you enjoyed
    doing it.
 
+   This assiment went well. Most of the problems were diffcult enough to make me think deeply and use problem solving
+   while it being easy enough not to spend hours on a single problem. This allowed me to wokr on conditional staments
+   int python. I feel like I have gotten aalot better at programming since I started this problem. I am getting better at
+   problem-solving also every time I complete a project .
    ...

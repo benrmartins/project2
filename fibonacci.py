@@ -12,9 +12,9 @@ i = 3
 while i <= n:
 
     # finds the next numbers of the Fibonacci sequence
-    t = b
+    temp = b
     b = a + b
-    a = t
+    a = temp
     i += 1
 
 stdio.writeln(b)
